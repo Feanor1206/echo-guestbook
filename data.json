@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "next_id": 13,
+  "entries": [
+    {
+      "id": 1,
+      "name": "Thảo Vy",
+      "message": "Hãy lưu lại một lời nhắn cho tương lai: rồi mọi điều tốt đẹp sẽ tới, theo cách của riêng nó. 🌈",
+      "created_at": "2026-10-06T14:22:00+07:00"
+    },
+    {
+      "id": 2,
+      "name": "Nhật Nam",
+      "message": "Cứ tiếp tục học hỏi, làm thử, sai rồi sửa. Mỗi ngày giỏi hơn một chút là đủ.",
+      "created_at": "2026-10-07T18:40:00+07:00"
+    },
+    {
+      "id": 3,
+      "name": "Minh Anh",
+      "message": "Cảm ơn những người luôn ở lại, lắng nghe và động viên mình qua những ngày khó khăn nhất.",
+      "created_at": "2026-10-08T16:24:00+07:00"
+    },
+    {
+      "id": 4,
+      "name": "Linh Chi",
+      "message": "Tự hào vì đã hoàn thành một việc tưởng như không thể. Hy vọng ai đang cố gắng cũng sớm có niềm vui như vậy.",
+      "created_at": "2026-10-09T10:15:00+07:00"
+    },
+    {
+      "id": 5,
+      "name": "Hoàng Long",
+      "message": "Mong ECHO sẽ là cuốn sổ kỷ niệm số hóa có thật nhiều lời nhắn tử tế từ mọi người.",
+      "created_at": "2026-10-10T21:34:00+07:00"
+    },
+    {
+      "id": 6,
+      "name": "Gia Huy",
+      "message": "Nếu hôm nay mọi thứ chưa như ý, ngày mai vẫn là một cơ hội mới. Tiến lên nào!",
+      "created_at": "2026-10-11T16:12:00+07:00"
+    },
+    {
+      "id": 7,
+      "name": "Bảo Ngọc",
+      "message": "Gửi một chút năng lượng tích cực đến tất cả mọi người. Chúc các bạn có một tuần làm việc thật hiệu quả! 💜",
+      "created_at": "2026-10-12T09:20:00+07:00"
+    },
+    {
+      "id": 8,
+      "name": "Minh Anh",
+      "message": "Khoảnh khắc đáng nhớ nhất không nhất thiết phải hoành tráng. Có khi chỉ là một tách cà phê và một cuộc trò chuyện vui.",
+      "created_at": "2026-10-12T20:10:00+07:00"
+    },
+    {
+      "id": 9,
+      "name": "Nhật Nam",
+      "message": "Đôi khi chỉ cần ai đó lắng nghe cũng đủ để một ngày trở nên nhẹ nhàng hơn. Cảm ơn vì đã tạo ra nơi này.",
+      "created_at": "2026-10-13T14:12:00+07:00"
+    },
+    {
+      "id": 10,
+      "name": "Linh Chi",
+      "message": "Một chiếc lời nhắn gửi đến bạn đang đọc: đừng quên uống nước, nghỉ ngơi và tự thưởng cho mình một chút bình yên. 🌷",
+      "created_at": "2026-10-13T18:45:00+07:00"
+    },
+    {
+      "id": 11,
+      "name": "Gia Huy",
+      "message": "Mọi hành trình tuyệt vời đều bắt đầu từ bước đầu tiên. Cứ kiên trì nhé, rồi bạn sẽ ngạc nhiên về chính mình!",
+      "created_at": "2026-10-14T08:35:00+07:00"
+    },
+    {
+      "id": 12,
+      "name": "Minh Anh",
+      "message": "Chào ECHO! Mong rằng góc nhỏ này sẽ luôn đầy ắp những câu chuyện thật đẹp. Chúng ta đều có một điều gì đó đáng để sẻ chia. ✨",
+      "created_at": "2026-10-14T09:16:00+07:00"
+    }
+  ]
+}

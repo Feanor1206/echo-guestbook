@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.session_key
+.env
+.venv/
+*.log
+.test-runs/
+.pytest-tmp/
+guestbook.db
+guestbook.db-*
+static/generated/*.png
+.env.*
