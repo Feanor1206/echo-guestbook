@@ -4,13 +4,13 @@
 
 > **Bản Vibe Code** của bài tập nhóm *Lập trình web với Python* (`BTWeb.docx`). Giao diện premium, backend Python thực, dữ liệu lưu bền vững, biểu đồ Matplotlib sinh thật — không mockup.
 
-## 🖼️ Giao diện
+##  Giao diện
 
 ![Trang chủ ECHO](previews/home.png)
 
 Hình chụp thực tế giao diện khi chạy: [Dashboard thống kê](previews/stats.png) · [Bản mobile](previews/mobile-add.png).
 
-## ⚡ Chạy dự án
+##  Chạy dự án
 
 **Yêu cầu:** Python 3.10+ và pip. Không cần tài khoản hay dịch vụ cloud.
 
@@ -28,7 +28,7 @@ Mở **http://127.0.0.1:8000**. Trên macOS/Linux, dùng `python3` nếu máy kh
 
 > Windows: nhấn `Win + R`, gõ `cmd`; dùng `cd` để di chuyển vào thư mục, rồi chạy 2 lệnh trên. Cần cài Python và bật tùy chọn *Add Python to PATH*.
 
-## 🚀 Chức năng
+##  Chức năng
 
 | Yêu cầu tài liệu | Cách ECHO triển khai |
 |---|---|
@@ -43,7 +43,7 @@ Mở **http://127.0.0.1:8000**. Trên macOS/Linux, dùng `python3` nếu máy kh
 
 **Tiện ích nâng cao:** tìm kiếm tức thì theo tên/nội dung; lọc hôm nay/7 ngày; sắp xếp; dark/light mode; xem trước lời nhắn; gợi ý viết nhanh; chia sẻ link; hộp thoại xác nhận xóa; responsive trên điện thoại; tải JSON export; REST API.
 
-## 🗂️ Cấu trúc
+##  Cấu trúc
 
 ```text
 ECHO_Guestbook/
@@ -71,13 +71,13 @@ ECHO_Guestbook/
         └── activity.png  # Tự sinh bằng Matplotlib
 ```
 
-## 🧹 Làm mới dữ liệu demo
+##  Làm mới dữ liệu demo
 
 Tệp `data.json` đi kèm là **12 lời nhắn mẫu hư cấu** để bạn mở ứng dụng là thấy giao diện có nội dung và biểu đồ.
 
 Muốn bắt đầu sạch, **dừng server** và xóa `data.json` **cùng** `guestbook.db` (nếu có), rồi chạy lại `python app.py`. Chương trình sẽ tạo JSON và database mới rỗng.
 
-## 🔗 Các đường dẫn
+##  Các đường dẫn
 
 | Endpoint | Method | Công dụng |
 |---|---|---|
@@ -91,7 +91,7 @@ Muốn bắt đầu sạch, **dừng server** và xóa `data.json` **cùng** `gu
 | `/api/docs` | GET | Tài liệu REST API (Swagger UI; cần Internet để tải UI CDN) |
 | `/health` | GET | Kiểm tra sức khỏe server |
 
-## 🧪 Chạy kiểm thử
+##  Chạy kiểm thử
 
 ```bash
 python -m pip install -r requirements-dev.txt
@@ -104,7 +104,7 @@ Kiểm tra thêm giới hạn 40/600 ký tự, Unicode/emoji, khoảng trắng v
 
 Các file runtime (`guestbook.db`, `.session_key`, biểu đồ sinh tự động và thư mục test) được bỏ qua bởi Git. `data.json` chứa dữ liệu demo; không commit lời nhắn riêng tư sau khi sử dụng.
 
-## 🔐 Ghi chú kỹ thuật
+##  Ghi chú kỹ thuật
 
 - Server tự tạo `.session_key` bí mật để duy trì session và bảo vệ POST bằng **CSRF token**.
 - Chạy trên `127.0.0.1:8000` cho mục đích demo local. Nếu triển khai public, cần reverse proxy HTTPS, kiểm soát phân quyền/quyền xóa, rate limit và backup — bản bài tập chưa bổ sung tài khoản đăng nhập.
@@ -112,13 +112,3 @@ Các file runtime (`guestbook.db`, `.session_key`, biểu đồ sinh tự độn
 - SQLite, JSON và biểu đồ được cập nhật khi thêm/xóa; icon SVG và giao diện chính là asset local. Font từ Google Fonts là tùy chọn, có font hệ thống dự phòng khi offline.
 - `GUESTBOOK_DATA_DIR` cho phép đổi nơi đặt file data/SQLite (hữu ích khi test hoặc deploy); `PORT` thay cổng, `GUESTBOOK_SECRET_KEY` thay session key.
 
-## 🎓 Thuyết trình bài tập
-
-1. Giới thiệu giao diện và `GET /` hiển thị Python `entries`.
-2. Nhập thử form `/add`: để trống thấy lỗi, nhập đúng thì thêm và redirect về trang chủ.
-3. Xóa theo ID và giải thích vì sao POST an toàn hơn GET.
-4. Mở `data.json` và SQLite để chứng minh dữ liệu đã được lưu; restart server để chứng minh không mất dữ liệu.
-5. Mở `/stats`, giải thích `Counter` và biểu đồ Matplotlib lưu file PNG rồi nhúng HTML.
-6. Giới thiệu các tính năng Vibe Code bổ sung: tìm kiếm/lọc, live preview, theme, export và API.
-
-**Lưu ý:** Tài liệu gốc yêu cầu nhóm xây dựng **cả hai phiên bản Vibe Code và Manual**. Dự án này là bản Vibe Code; bản Manual cần làm riêng nếu giáo viên yêu cầu nộp cả hai.
