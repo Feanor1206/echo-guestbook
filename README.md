@@ -1,4 +1,4 @@
-# ✳ ECHO — Leave a Trace
+# ✳ ECHO - Leave a Trace
 
 **Mỗi lời nhắn, một dấu ấn.** Sổ lưu bút số với giao diện tiếng Việt, FastAPI, SQLite, JSON và biểu đồ Matplotlib.
 
