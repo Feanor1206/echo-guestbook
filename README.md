@@ -2,7 +2,6 @@
 
 **Mỗi lời nhắn, một dấu ấn.** Sổ lưu bút số với giao diện tiếng Việt, FastAPI, SQLite, JSON và biểu đồ Matplotlib.
 
-> **Bản Vibe Code** của bài tập nhóm *Lập trình web với Python* (`BTWeb.docx`). Giao diện premium, backend Python thực, dữ liệu lưu bền vững, biểu đồ Matplotlib sinh thật — không mockup.
 
 ##  Giao diện
 
