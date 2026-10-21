@@ -191,5 +191,6 @@ app = create_app()
 
 if __name__ == '__main__':
     import uvicorn
-    print('\n  ECHO Guestbook running → http://127.0.0.1:8000\n')
-    uvicorn.run(app, host='127.0.0.1', port=int(os.getenv('PORT', '8000')))
+    port = int(os.getenv('PORT', '8000'))
+    print(f'\n  ECHO Guestbook running: http://127.0.0.1:{port}\n')
+    uvicorn.run(app, host='127.0.0.1', port=port)
